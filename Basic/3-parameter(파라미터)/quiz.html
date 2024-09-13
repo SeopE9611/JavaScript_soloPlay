@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+<script>
+  //방법 1
+  // function TeraToGigaMega(x) {
+  //   let number = 1024
+  // console.log(x + 'TB는');
+  // console.log(x + number + 'GB입니다');
+
+  // console.log(x + 'TB는');
+  // console.log(x * number * number + 'MB입니다.');
+  // }
+  // TeraToGigaMega(2)
+
+  //방법 2
+  function TeraToGiga(x) {
+    console.log(x +'TB는');    
+    console.log( x * 1024 + 'GB입니다');
+  }
+  TeraToGiga(2)
+
+  function TeraToMega(y) {
+    console.log(y + 'TB는');
+    console.log(y * 1024 * 1024 + 'TB입니다.');
+  }TeraToMega(2)
+</script>
+</html>
