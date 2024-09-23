@@ -9,9 +9,20 @@
     
 </body>
 <script>
+    //일반적인 return문
+//     function square(x) {
+//         return x * x
+//     }
+//     console.log(square(3));
+    
+    // 함수 실행 중단 하는 return문
     function square(x) {
+        console.log('return 전');
         return x * x
+        console.log('return 후');
     }
+    console.log('함수 호출 전');
     console.log(square(3));
+    console.log('함수 호출 후');
 </script>
 </html>
