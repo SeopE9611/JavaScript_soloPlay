@@ -40,7 +40,12 @@
     console.log('----------undefined test----------');
     console.log(exp.goodDay !== undefined);
     console.log('goodDay' in exp);
-    
-    
+
+    //in 연산자로 불린 값을 리턴받기에 if문 활용하기 용이함
+    if ('Name' in exp) {
+        console.log(`Name 값은 ${exp.Name} 입니다.`);
+    }else {
+        console.log(`Name 프로퍼티는 존재하지 않습니다.`);
+    }
 </script>
 </html>
