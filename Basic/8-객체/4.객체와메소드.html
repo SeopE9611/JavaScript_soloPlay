@@ -11,8 +11,8 @@
 <script>
     //메소드(Method)
     let greetings = {
-        sayHello: function () {
-            console.log('안녕하세요');
+        sayHello: function (name) {
+            console.log(`안녕하세요 ${name}님`);
         },
         sayHi: function () {
             console.log('안녕');
@@ -22,7 +22,7 @@
         }
     }
 
-    greetings.sayHello()
+    greetings.sayHello('섭이')
     greetings.sayHi()
     greetings.sayBye()
 </script>
