@@ -13,14 +13,24 @@
         Name : '섭이',
         Year : 2024,
         areYouLame: true,
-        goodDay: null,
+        'good Day': null,
         bestFace: {
             title:'차은우는 사람일까 신일까',
         }
     }
 
     //점 표기 법 (objectName.propertyName)
-    console.log(exp.Year);
+    //단 점 표기법을 사용하면 따옴표를 생략할 수 없는 프로퍼티 네임으로 접근할 수 없다.
+    console.log(exp.Year); 
+    
+    //대괄호 표기법 (objectName['propertyName'])
+    console.log(exp['good Day']);
+    console.log(exp['good' +' Day']);
+    
+    let propertyName = 'Name'
+    console.log(exp[propertyName]);
+    
+    
     
 </script>
 </html>
