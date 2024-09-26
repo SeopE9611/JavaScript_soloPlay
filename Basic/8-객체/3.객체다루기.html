@@ -13,7 +13,7 @@
         Name : '섭이',
         Year : 2024,
         areYouLame: true,
-        'good Day': null,
+        goodDay: undefined, //null , undefined
         bestFace: {
             title:'차은우는 사람일까 신일까',
         }
@@ -33,6 +33,13 @@
     delete exp.areYouLame;      
     console.log(exp.areYouLame); //삭제됨에 따라 undefined
     
+    //in 연산자
+    console.log(exp.Name !== undefined);
+    console.log('Name' in exp);
+
+    console.log('----------undefined test----------');
+    console.log(exp.goodDay !== undefined);
+    console.log('goodDay' in exp);
     
     
 </script>
