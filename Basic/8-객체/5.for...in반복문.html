@@ -10,8 +10,22 @@
 </body>
 <script>
     //for...in
-    for (변수 in 객체) {
-        동작부분
+    // for (변수 in 객체) {
+    //     동작부분
+    // }
+
+    let exp = {
+        name : '섭이',
+        Year : 2024,
+        areYouLame: true,
+        goodDay: null,
+        bestFace:'차은우는 사람일까 신일까',
+    }
+
+    for (let key in exp) {
+        console.log(key); // 프로퍼티 접근
+        console.log(exp[key]); //프로퍼티 값 접근
+        console.log('-------------------------------');
     }
 </script>
 </html>
