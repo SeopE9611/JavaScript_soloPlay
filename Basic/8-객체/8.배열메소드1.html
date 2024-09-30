@@ -18,8 +18,17 @@
 
     //splice
     // members.splice(4) //하지만 4번 인덱스 이후 모든 요소들이 사라져버림
-    members.splice(4, 1) //startIndex, deleteCount   
+    
+    //해결방법
+    //첫 번째 파라미터와 두 번째 파라미터 값을 줘서 인덱스 선택 삭제 가능
+    // members.splice(4, 1) //startIndex, deleteCount   
+    
+    //splice의 추가적인 활용법
+    //세 번째 파라미터를 추가하면 삭제한 요소 그자리에 인덱스가 추가된다.
+    members.splice(4, 1, 'index 추가(1)', 'index 추가(2)')
+    
     console.log(members);
+
     
 </script>
 </html>
