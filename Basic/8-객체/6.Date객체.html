@@ -27,5 +27,29 @@
     let myDate4 = new Date(2024, 1, 1, 22, 33, 44);
     console.log(myDate4.getTime());
     
+    console.log('-----------------------------------------------');
+    
+    let myDate5 = new Date(2024, 1, 1, 22, 33, 44);
+    let today = new Date()
+
+    let timeDiff = myDate5.getTime() - today.getTime()
+    console.log(timeDiff + '밀리초');
+    console.log(timeDiff + '초');
+    console.log(timeDiff / 1000 / 60 + '분');
+    console.log(timeDiff / 1000 / 60 / 60 + '초');
+    
+    console.log('-----------------------------------------------');
+    
+    let myDate6 = new Date(2024, 1, 1, 22, 33, 44);
+    console.log(myDate6.getFullYear());
+    console.log(myDate6.getMonth());
+    console.log(myDate6.getDate());
+    console.log(myDate6.getDay());
+    console.log(myDate6.getHours());
+    console.log(myDate6.getMinutes());
+    console.log(myDate6.getSeconds());
+    console.log(myDate6.getMilliseconds());
+
+    
 </script>
 </html>
