@@ -102,6 +102,20 @@
     console.log(timeDiff1 / 1000 / 60) // 1440 (min)
     console.log(timeDiff1 / 1000 / 60 / 60) // 24 (hour)
     console.log(timeDiff1 / 1000 / 60 / 60 / 24) // 1 (date)
+
+    console.log('-----------------------------------------------');
+
+    //날짜를 표현하는 문자열
+    let date1 = new Date('1/1/2024 22:33:44');
+    let date2 = new Date('january 1, 2024 22:33:44');
+    let date3 = new Date('Jan 1 2024 22:33:44');
+    
+    //표현하는 문자열 방식만 다를뿐 전부 똑같은 값이 출력된다.
+    console.log(date1); 
+    console.log(date2);
+    console.log(date3);
+    
+    
 </script>
 
 </html>
