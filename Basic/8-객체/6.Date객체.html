@@ -87,7 +87,21 @@
 
     console.log('-----------------------------------------------');
     //number타입으로 변환 할 경우
-    let myDate11 = new Date(2024, 0, 1); 
-    console.log(myDate.getTime() === Number(myDate11)); // true
+    let myDate11 = new Date(2024, 1, 1); 
+    console.log(myDate11.getTime() === Number(myDate11)); // true
+
+    console.log('-----------------------------------------------');
+
+    //Date 객체끼리 바로 사칙 연산
+    let myDate12 = new Date(2024, 1, 1); 
+    let myDate13 = new Date(2024, 1, 2); 
+
+    let timeDiff1 = myDate13 - myDate12;
+    console.log(timeDiff1); // 86400000 (ms)
+    console.log(timeDiff1 / 1000); // 86400 (sec)
+    console.log(timeDiff1 / 1000 / 60) // 1440 (min)
+    console.log(timeDiff1 / 1000 / 60 / 60) // 24 (hour)
+    console.log(timeDiff1 / 1000 / 60 / 60 / 24) // 1 (date)
 </script>
+
 </html>
