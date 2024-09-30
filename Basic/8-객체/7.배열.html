@@ -35,12 +35,18 @@
     let members = ['행섭', '양천', '찌듕', '힝카인', '데셔', '스기따라','넌적혈구']
     console.log(typeof members);
 
-    console.log('-----------------------------------------');
+    
 
     // 1. array length
     console.log(members.length); 
     console.log(members['length']); //프로퍼티 특징에 따른 점표기법과 대괄호법 사용가능
     console.log(members[members.length -1 ]);
+    
+    console.log('-----------------------------------------');
+
+    // 2. array 추가/수정
+    members[7] = '죡팡'
+    console.log(members[7]); //undefined
     
     
 </script>
