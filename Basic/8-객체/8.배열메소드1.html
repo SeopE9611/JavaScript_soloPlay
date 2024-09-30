@@ -13,11 +13,12 @@
     
     // array 요소 삭제
     console.log(members);
-    delete members[4]; //데셔 값이 삭제 되었으나 empty로 남아있음.
-    console.log(members);
+    // delete members[4]; //데셔 값이 삭제 되었으나 empty로 남아있음.
+    // console.log(members);
 
     //splice
-    members.splice(4)
+    // members.splice(4) //하지만 4번 인덱스 이후 모든 요소들이 사라져버림
+    members.splice(4, 1) //startIndex, deleteCount   
     console.log(members);
     
 </script>
