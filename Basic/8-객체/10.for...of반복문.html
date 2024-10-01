@@ -11,10 +11,24 @@
 <script>
         let members = ['행섭', '양천', '찌듕', '힝카인', '데셔', '스기따라','넌적혈구']
 
-
         //for...of
-        for(변수 of 배열){
-            동작부분;
+        // for(변수 of 배열){
+        //     동작부분;
+        // }
+
+        
+
+        //단순 for문으로 작성 할 때
+        for(let i = 0; i < members.length; i++){
+            console.log(members[i]);
+        }
+
+        console.log('--------------------------');
+        
+
+        //for...of문으로 작성 할 때
+        for (let element of members){
+            console.log(element);
         }
 </script>
 </html>
