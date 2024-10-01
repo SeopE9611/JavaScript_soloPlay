@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function printTriangle(height) {
+    let message = '' // 단순 변수만 선언할 경우 undefined 
+    for (let i = 0; i < height; i++) { // 파라미터 height값이 i보다 클 때 i가 증가
+        message += '*' // i = i + *
+        console.log(message); // *을 출력
+    }
+}
+console.log('높이:1');
+printTriangle(1)
+console.log('높이:3');
+printTriangle(3)
+console.log('높이:5');
+printTriangle(5)
+
+</script>
+</html>

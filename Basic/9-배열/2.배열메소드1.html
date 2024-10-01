@@ -29,8 +29,10 @@
 
     //만약에 삭제할 개수를 0으로 만들어준다면..?
     //그 기준으로 배열 안에 어느 곳이든 요소를 추가할 수 있다.
-    members.splice(4, 0, 'index 추가(1)', 'index 추가(2)')
+    // members.splice(4, 0, 'index 추가(1)', 'index 추가(2)')
     
+    //또한 삭제할 개수 만큼 세 번째 이후에 파라미터를 활용하면 요소를 수정 하는 것도 가능
+    members.splice(2, 1, 'index 추가(1)')
     console.log(members);
 
     

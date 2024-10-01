@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+let exp = {
+  addVoca: function (key, value) {
+    exp[key] = value;
+  },
+  deleteVoca: function (key) {
+    delete exp[key];
+  },
+  printVoca: function (key) {
+    console.log(`"${key}"의 뜻은 "${exp[key]}"입니다.`);
+  },
+};
+
+exp.addVoca('parameter', '매개 변수');
+exp.addVoca('element', '요소');
+exp.addVoca('property', '속성');
+console.log(exp);
+
+exp.deleteVoca('parameter');
+exp.deleteVoca('element');
+console.log(exp);
+
+exp.printVoca('property');
+
+</script>
+</html>

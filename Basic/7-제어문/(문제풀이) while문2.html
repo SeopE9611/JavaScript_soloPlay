@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    //우선 180의 약수를 출력하기위해 180 % i === 0 -> true
+    const N = 180 //약수에게 변수를 지정
+    let i = 1
+    let count = 0 //약수의 총 개수에 따른 변수를 지정
+
+    while (i <= N) { //i가 N보다 작거나 같을 때
+        if (N % i === 0) { //만약 i가 N으로 나누어 떨어질 때 나머지가 0이라면 true
+            console.log(i);
+            count++ //if문에서 180의 약수를 발견 했을 때마다 1씩 늘어남
+        }
+        i += 1 // i = i + 1
+    }
+    console.log(`${N}의 약수는 총 ${count} 개 입니다.`);
+    
+</script>
+</html>

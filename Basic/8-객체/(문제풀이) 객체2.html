@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    let exp = {
+        function: '함수',
+        variable: '변수',
+        constant: '상수',
+        local: '지역의',
+        global: '전반적인'
+    }
+
+    //프로퍼티 삭제
+    delete exp.local
+    delete exp.constant
+    delete exp.function
+    console.log(exp);
+
+    //프로퍼티 추가
+    exp.extend = '확장하다'
+    exp.export = '내보내다'
+    exp.import = '불러오다'
+    exp ['default value'] = '기본값'
+
+    console.log(exp.export);
+    console.log(exp['default value'])
+    
+    
+    
+    
+</script>
+</html>

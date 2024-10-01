@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+    let VIP_Price = 15
+    let R_Price = 13
+    let S_Price = 10
+    let A_Price = 8
+
+    function checkPrice(grade) {
+        switch (grade) {
+        case 'VIP':
+            console.log(`${grade}석은 ${VIP_Price}만원 입니다.`);
+            break;
+        case 'R':
+            console.log(`${grade}석은 ${R_Price}만원 입니다.`);
+            break;
+        case 'S':
+            console.log(`${grade}석은 ${S_Price}만원 입니다.`);
+            break;
+        case 'A':
+            console.log(`${grade}석은 ${A_Price}만원 입니다.`);
+            break;
+        default:
+            console.log('VIP, R, S, A 중 하나 선택해주세요');       
+        }    
+    }
+    checkPrice('VIP')
+    checkPrice('R')
+    checkPrice('S')
+    checkPrice('A')
+    
+</script>
+</html>

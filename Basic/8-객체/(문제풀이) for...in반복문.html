@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let firstScore = {
+        '데이터 모델링의 이해': 10,
+        '데이터 모델과 성능': 8,
+        'SQL 기본': 22,
+        'SQL 활용': 18,
+        'SQL 최적화 기본 원리': 20,
+    };
+
+    let secondScore = {
+        '데이터 모델링의 이해': 14,
+        '데이터 모델과 성능': 8,
+        'SQL 기본': 12,
+        'SQL 활용': 4,
+        'SQL 최적화 기본 원리': 16,
+    };
+
+    function passChecker(scoreObject) {
+
+        //합계 값을 저장할 변수
+        let totalScore = 0 
+        
+        //파라미터로 전달 받은 객체를 순회 하면서 과목별 점수 합산
+        for (let key in scoreObject) { 
+            totalScore += scoreObject[key]
+            // 0 = 0 + scoreObject[key]
+        }
+
+        //if문을 사용하여 합격 불합격 여부 출력
+        if(totalScore >= 60) {
+            console.log('합격입니다.');
+        }else{
+            console.log('불합격입니다.');
+        }
+    }
+
+    passChecker(firstScore)
+    passChecker(secondScore)
+
+</script>
+</html>

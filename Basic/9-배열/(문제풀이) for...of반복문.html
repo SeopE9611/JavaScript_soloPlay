@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+// 투표 결과 리스트
+let votes = [
+  '행섭', '행섭', '양천', '양천', '양천',
+  '행섭', '행섭', '양천', '양천', '행섭',
+  '양천', '양천', '양천', '양천', '행섭',
+  '행섭', '양천', '행섭', '행섭', '행섭',
+  '행섭', '행섭', '양천', '양천', '양천',
+  '양천', '양천', '행섭', '양천', '양천',
+  '양천', '양천', '행섭', '양천', '양천',
+  '양천', '행섭', '행섭', '행섭', '양천',
+];
+
+// 후보별 득표수 객체
+let voteCounter = {}; //
+
+// votes 배열을 이용해서 voteCounter 객체를 정리하기
+for (let name of votes) { //name을 voteCounter 객체에 반영
+  if (name in voteCounter) { //voteCounter[name] === undefined 에따른 in 연산자 사용
+                            // 처음에는 빈 객체이기 때문에 2가지 경우 생각
+                            // 1. voteCounter[name] 프로퍼티가 없는경우
+                            // 2. voteCounter[name] 프로퍼티가 있는경우
+                            
+    voteCounter[name]+= 1; 
+  } else {
+    voteCounter[name] = 1; 
+  }
+}
+
+// 후보별 득표수 출력
+console.log(voteCounter);
+
+</script>
+</html>

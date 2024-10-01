@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    //오늘 날짜와 공부 시작한 날짜 변수 저장
+    const USER_NAME = '윤형섭'
+    let today = new Date(2024, 9, 30)
+    let jsStudy = new Date(2024 , 8, 1)
+
+    function studyDayCalc(startDate) {
+        //두 날짜의 차이를 구하는 변수
+        let timeDiff = today.getTime() - startDate.getTime()
+
+        //타임스탬프를 밀리초에서 일 수로 변경
+        let dayDiff = timeDiff / 1000 / 60 / 60 / 24;
+        //                      1초 / 1분 / 1시간 / 하루
+
+        console.log(`${USER_NAME}님은 자바스크립트를 공부한지 ${dayDiff + 1}일차 입니다.`);
+        
+    }
+    studyDayCalc(jsStudy) //호출
+</script>
+</html>
