@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+        let groups = [
+            ['페이커', '쵸비'],
+            ['바이퍼', '구마유시'], 
+            ['케리아', '페이즈'],
+            ['데프트', '오너'],
+	        ['표식', '제우스'],
+        ];
+
+        let teams = [
+	        [],
+	        [],
+];
+
+    for(let i = 0; i<groups.length; i++){          //2차원 배열을 다뤄야하기 때문에 
+        for(let j = 0; j <groups[i].length; j++){ //반복문을 곂쳐서 각 요소별 값들을 가져옴
+           teams[j][i] = groups[i][j]   //groups의 각 index를 뒤집어서 teams에 할당
+        }
+    }
+            
+
+        console.log(teams[0]);
+        console.log(teams[1]);
+</script>
+</html>
