@@ -27,11 +27,31 @@
 
     // let course2 = course1
     let course2 = Object.assign({}, course1)
+
     course2.title = '알고리즘'
 
     console.log(course1);
     console.log(course2);
     
+    //for...in문으로 객체 복사
+    console.log('-------------------------------');
+    
+    let course3 = {
+        title: '파이썬',
+        language:'Python'
+    }
+
+    // let course2 = course1
+    // let course2 = Object.assign({}, course1)
+    let course4 = {}
+    for(let key in course3){
+        course4[key] = course3[key]
+    }
+
+    course4.title = '자료구조'
+
+    console.log(course3);
+    console.log(course4);
 
     
 </script>
