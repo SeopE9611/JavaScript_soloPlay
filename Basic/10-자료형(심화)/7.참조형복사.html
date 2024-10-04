@@ -81,7 +81,34 @@
     console.log(course6);
     console.log(course7);
     
+    //주의할 점
+    console.log('-------------------------------');
+    function cloneObject(object){
+        let temp = {}
 
+        for (let key in object){
+            temp[key] = object[key]
+        }
+        return temp
+    }
+
+    let course8 = {
+        title: '파이썬',
+        language:'Python',
+        test : [] // 배열 추가
+    }
+
+    // let course2 = course1
+    // let course2 = Object.assign({}, course1)
+    let course9 = cloneObject(course8) 
+    
+
+    course9.title = '자료구조'
+    course9.test.push('배열추가test') //배열추가
+
+    console.log(course8);
+    console.log(course9);
+    
 
     
 </script>
