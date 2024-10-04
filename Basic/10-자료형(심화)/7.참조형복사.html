@@ -53,6 +53,36 @@
     console.log(course3);
     console.log(course4);
 
+    console.log('-------------------------------');
+    //function 함수로 객체 복사
+    function cloneObject(object){
+        let temp = {}
+
+        for (let key in object){
+            temp[key] = object[key]
+        }
+        return temp
+    }
+
+    let course5 = {
+        title: '파이썬',
+        language:'Python'
+    }
+
+    // let course2 = course1
+    // let course2 = Object.assign({}, course1)
+    let course6 = cloneObject(course5) //함수 호출
+    let course7 = cloneObject(course5) //함수 호출2
+
+    course6.title = '자료구조'
+    course7.title = '자바스크립트'
+
+    console.log(course5);
+    console.log(course6);
+    console.log(course7);
+    
+
+
     
 </script>
 </html>
