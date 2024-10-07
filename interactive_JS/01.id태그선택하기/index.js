@@ -24,5 +24,8 @@ console.log('-------------------------------');
 const btns = document.getElementsByTagName('button');
 console.log(btns);
 
+console.log('-------------------------------');
+//모든 태그 선택하기
+const allTags = document.getElementsByTagName('*');
 
 
