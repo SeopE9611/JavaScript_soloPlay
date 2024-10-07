@@ -19,6 +19,10 @@ console.log('-------------------------------');
 console.log(myTags === null);
 console.log(myTags.length);
 
+console.log('-------------------------------');
+//태그 이름으로 태그 선택하기
+const btns = document.getElementsByTagName('button');
+console.log(btns);
 
 
 
