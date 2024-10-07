@@ -15,6 +15,10 @@ for(let tag of myTags) { //myTags for...of 문으로 활용
     console.log(tag);
 }
 
+console.log('-------------------------------');
+console.log(myTags === null);
+console.log(myTags.length);
+
 
 
 
