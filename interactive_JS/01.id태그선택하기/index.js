@@ -6,7 +6,7 @@ console.log('-------------------------------');
 
 
 //class 태그 선택하기
-const myTags = document.getElementsByClassName('red')
+const myTags = document.getElementsByClassName('seopE')
 console.log(myTags);
 
 console.log(myTags[0]); //myTags index 접근
