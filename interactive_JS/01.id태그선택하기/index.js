@@ -1,2 +1,3 @@
 // id로 태그 선택하기
-document.getElementById('id')
+const myTag = document.getElementById('btns')
+console.log(myTag);
