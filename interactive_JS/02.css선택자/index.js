@@ -2,6 +2,9 @@
 const myTag = document.querySelector('#myNumber'); // // = getElementById('myNumber')
 console.log(myTag);
 
-const myTag2 = document.getElementById('myNumber'); // = getElementById('myNumber')
+const myTag2 = document.getElementById('myNumber'); // = querySelector('#myNumber')
 console.log(myTag2);
+
+const myTag3 = document.querySelector('.color-btn');
+console.log(myTag3);
 
