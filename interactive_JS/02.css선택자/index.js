@@ -8,3 +8,6 @@ console.log(myTag2);
 const myTag3 = document.querySelector('.color-btn');
 console.log(myTag3);
 
+const myTags1 = document.querySelectorAll('.color-btn');
+console.log(myTags1);
+
