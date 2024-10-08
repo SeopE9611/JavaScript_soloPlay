@@ -11,3 +11,5 @@ console.log(myTag3);
 const myTags1 = document.querySelectorAll('.color-btn');
 console.log(myTags1);
 
+const myTags2 = document.getElementsByClassName('color-btn');
+console.log(myTags2);
