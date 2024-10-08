@@ -2,6 +2,6 @@
 const btn = document.querySelector('#myBtn')
 
 //이벤트 핸들링 (Event Handling)
-btn.onclick = function() {
+btn.onclick = function() { //이벤트 핸들러 (Event Handler)
     console.log('hello');
 }
