@@ -25,3 +25,7 @@ console.log('---------------------------------');
 console.log(myTag.previousElementSibling); //이전
 console.log(myTag.nextElementSibling); // 다음
 
+console.log('---------------------------------');
+
+//프로퍼티 연결 가능
+console.log(myTag.parentElement.lastElementChild);
