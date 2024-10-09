@@ -9,3 +9,8 @@ console.log(myTag.children);
 
 //자식 요소 노드 대괄호 표기법으로 요소 선택
 console.log(myTag.children[1]);
+
+//firstElementChild, lastElemnetChild 
+console.log(myTag.firstElementChild);
+console.log(myTag.lastElementChild);
+
