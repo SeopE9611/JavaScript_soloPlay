@@ -14,3 +14,14 @@ console.log(myTag.children[1]);
 console.log(myTag.firstElementChild);
 console.log(myTag.lastElementChild);
 
+console.log('---------------------------------');
+
+// 부모 요소 노드
+console.log(myTag.parentElement);
+
+console.log('---------------------------------');
+
+//형제 요소 노드
+console.log(myTag.previousElementSibling); //이전
+console.log(myTag.nextElementSibling); // 다음
+
