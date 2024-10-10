@@ -7,4 +7,5 @@ console.log(myTag.innerHTML);
 // myTag.innerHTML += '<li>Exotic</li>' //할당 연산자 사용 
 
 //outerHTML
-console.log(myTag.outerHTML);
+console.log(myTag.outerHTML); 
+myTag.outerHTML = '<ul id ="new-list"><li>Exotic</li></ul>' 
