@@ -12,4 +12,6 @@ console.log(myTag.outerHTML);
 
 //textContent
 console.log(myTag.textContent);
-myTag.textContent = 'new text'
+// myTag.textContent = 'new text'
+myTag.textContent = '<li>new text</li>'
+
