@@ -8,4 +8,7 @@ console.log(myTag.innerHTML);
 
 //outerHTML
 console.log(myTag.outerHTML); 
-myTag.outerHTML = '<ul id ="new-list"><li>Exotic</li></ul>' 
+// myTag.outerHTML = '<ul id ="new-list"><li>Exotic</li></ul>' 
+
+//textContent
+console.log(myTag.textContent);
