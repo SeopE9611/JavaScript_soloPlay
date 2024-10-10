@@ -3,3 +3,4 @@ const myTag = document.querySelector('#list-1')
 
 //innerHTML
 console.log(myTag.innerHTML);
+myTag.innerHTML = '<li>Exotic</li>'
