@@ -3,4 +3,5 @@ const myTag = document.querySelector('#list-1')
 
 //innerHTML
 console.log(myTag.innerHTML);
-myTag.innerHTML = '<li>Exotic</li>'
+// myTag.innerHTML = '<li>Exotic</li>'
+myTag.innerHTML += '<li>Exotic</li>' //할당 연산자 사용
