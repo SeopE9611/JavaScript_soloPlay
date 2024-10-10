@@ -12,3 +12,4 @@ console.log(myTag.outerHTML);
 
 //textContent
 console.log(myTag.textContent);
+myTag.textContent = 'new text'
