@@ -23,6 +23,8 @@ first.textContent = '처음'
 // 3. 요소 노드 추가하기: NODE.prepend, append, after, before
 tomorrow.prepend(first);
 
+// append, before, after
+
 const last = document.createElement('li')
 last.textContent = '마지막'
 tomorrow.append(last)
