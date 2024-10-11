@@ -31,7 +31,8 @@ tomorrow.append(last)
 
 const prev = document.createElement('p') 
 prev.textContent = ('이전')
-tomorrow.before(prev)
+// tomorrow.before(prev)
+tomorrow.before('문자열')
 
 const next = document.createElement('p')
 next.textContent = ('다음')
