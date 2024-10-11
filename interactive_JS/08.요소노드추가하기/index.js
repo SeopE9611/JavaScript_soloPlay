@@ -30,3 +30,7 @@ tomorrow.append(last)
 const prev = document.createElement('p') 
 prev.textContent = ('이전')
 tomorrow.before(prev)
+
+const next = document.createElement('p')
+next.textContent = ('다음')
+tomorrow.after(next)
