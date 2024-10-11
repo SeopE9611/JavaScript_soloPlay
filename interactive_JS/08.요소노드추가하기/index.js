@@ -32,7 +32,7 @@ tomorrow.append(last)
 const prev = document.createElement('p') 
 prev.textContent = ('이전')
 // tomorrow.before(prev)
-tomorrow.before('문자열')
+tomorrow.before('문자열', prev)
 
 const next = document.createElement('p')
 next.textContent = ('다음')
