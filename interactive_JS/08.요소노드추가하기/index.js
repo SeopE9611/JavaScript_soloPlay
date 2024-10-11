@@ -26,3 +26,7 @@ tomorrow.prepend(first);
 const last = document.createElement('li')
 last.textContent = '마지막'
 tomorrow.append(last)
+
+const prev = document.createElement('p') 
+prev.textContent = ('이전')
+tomorrow.before(prev)
