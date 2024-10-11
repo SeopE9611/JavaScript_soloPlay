@@ -13,3 +13,9 @@ newToday.outerHTML = newToday.outerHTML + '<p>다음</p>';
 const tomorrow = document.querySelector('#tomorrow');
 
 console.log('--------------------------------------------------');
+
+// 1. 요소 노드 만들기 - document.createElement('태그이름')
+const first = document.createElement('li')
+
+// 2. 요소 노드 꾸미기 - textContent, innerHTML...
+first.textContent = '처음'
