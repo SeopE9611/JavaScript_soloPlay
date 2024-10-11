@@ -19,3 +19,10 @@ const first = document.createElement('li')
 
 // 2. 요소 노드 꾸미기 - textContent, innerHTML....
 first.textContent = '처음'
+
+// 3. 요소 노드 추가하기: NODE.prepend, append, after, before
+tomorrow.prepend(first);
+
+const last = document.createElement('li')
+last.textContent = '마지막'
+tomorrow.append(last)
