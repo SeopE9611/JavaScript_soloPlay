@@ -7,4 +7,7 @@ const tomorrow = document.querySelector('#tomorrow');
 // today.children[2].remove()
 
 // 노드 이동하기: prepend, append, before, after/
-today.append(tomorrow.children[1])
+// today.append(tomorrow.children[1])
+
+// tomorrow.children[1].after(today.children[1])
+// tomorrow.children[2].before(today.children[1])
