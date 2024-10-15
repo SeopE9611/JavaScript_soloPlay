@@ -8,6 +8,13 @@ const link = item.firstElementChild;
 console.log(tomorrow.getAttribute('href'));
 console.log(item.getAttribute('class'));
 
+console.log('-----------------------------------------');
+
+
+//elem.setAttribute('속성','값') - 속성 추가(수정)하기
+tomorrow.setAttribute('class', 'list') // 추가
+link.setAttribute('href', 'https://www.naver.com') // 수정
+
 // // id 속성
 // console.log(tomorrow);
 // console.log(tomorrow.id);
