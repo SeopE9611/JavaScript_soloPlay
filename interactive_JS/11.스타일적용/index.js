@@ -2,6 +2,11 @@
 const today = document.querySelector('#today');
 const tomorrow = document.querySelector('#tomorrow');
 
+
+//elem.classList : add, remove, toggle
+console.log(today.classList);
+console.log(today.children[1].classList);
+
 //elem.className
 today.children[1].className = 'done'
 
