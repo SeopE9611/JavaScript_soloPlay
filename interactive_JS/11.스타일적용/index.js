@@ -4,8 +4,10 @@ const tomorrow = document.querySelector('#tomorrow');
 
 
 //elem.classList : add, remove, toggle
-console.log(today.classList);
-console.log(today.children[1].classList);
+// console.log(today.classList);
+// console.log(today.children[1].classList);
+const item = tomorrow.children[1]
+item.classList.add('done')
 
 //elem.className
 today.children[1].className = 'done'
