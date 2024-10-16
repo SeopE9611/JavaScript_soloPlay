@@ -7,7 +7,7 @@ const tomorrow = document.querySelector('#tomorrow');
 // console.log(today.classList);
 // console.log(today.children[1].classList);
 const item = tomorrow.children[1]
-item.classList.add('done')
+item.classList.add('done', 'other') 
 
 //elem.className
 today.children[1].className = 'done'
