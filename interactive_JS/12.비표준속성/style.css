@@ -1,0 +1,18 @@
+[data-status] {
+  padding: 5px 10px;
+}
+
+[data-status="방해금지"] {
+  background-color: #ff6767;
+  color: #ffffff;
+}
+
+[data-status="게임중"] {
+  background-color: #5f62ff;
+  color: #ffffff;
+}
+
+[data-status="접속중"] {
+  background-color: #07c456;
+  color: #ffffff;
+}
