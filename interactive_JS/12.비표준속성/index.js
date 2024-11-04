@@ -16,3 +16,13 @@ for (let tag of fields) {
   const field = tag.getAttribute("field");
   tag.textContent = task[field];
 }
+
+//스타일이나 데이터 변경에 활용
+const btns = document.querySelectorAll(".btn");
+for (let btn of btns) {
+  const status = btn.getAttribute("status");
+  btn.onclick = function () {
+    fields[2].textContent = status;
+    fields[2].setAttribute("status", status);
+  };
+}
