@@ -5,21 +5,22 @@
 좀 더 구체적으로 속성이름에 
 해당 값을 가진 태그들을 선택할 수 있다. */
 
-[status] {
+/* dataset 저장 */
+[data-status] {
   padding: 5px 10px;
 }
 
-[status="방해금지"] {
+[data-status="방해금지"] {
   background-color: #ff6767;
   color: #ffffff;
 }
 
-[status="게임중"] {
+[data-status="게임중"] {
   background-color: #5f62ff;
   color: #ffffff;
 }
 
-[status="접속중"] {
+[data-status="접속중"] {
   background-color: #07c456;
   color: #ffffff;
 }
