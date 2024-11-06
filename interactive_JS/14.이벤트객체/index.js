@@ -9,3 +9,11 @@ myInput.addEventListener("keydown", function () {
 myBtn.addEventListener("click", function () {
   console.log("마우스 이벤트");
 });
+
+//--------------------------------------------------
+function printEvent(e) {
+  console.log(e);
+}
+
+myInput.addEventListener("keydown", printEvent);
+myBtn.addEventListener("click", printEvent);
