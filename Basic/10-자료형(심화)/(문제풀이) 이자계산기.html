@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function interestCalculator(rate, payment, term) { // 파라미터 3개의 함수 선언
+        // interest = 월 납입금 * 납입 개월 수 * (납입 개월 수+1) / 2 * 이자율 / 12
+        // let interest = payment * term * (term+1) / 2 * rate / 12
+        // console.log(interest);  // 출력결과를 반올림해야 정상적으로 출력됨. 
+
+        let interest = +(payment * term * (term+1) / 2 * rate / 12).toFixed(1)
+        console.log(interest);
+        
+        
+    }
+// 이율이 4.3%일 때 매월 80만원씩 24개월 납입할 경우
+    interestCalculator(0.043, 800000, 24);
+
+// 이율이 4.3%일 때 매월 60만원씩 24개월 납입할 경우
+    interestCalculator(0.043, 600000, 24);
+
+</script>
+</html>

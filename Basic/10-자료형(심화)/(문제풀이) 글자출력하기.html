@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let conversation = "[재민]니 내일 공부하러가냐[섭이]공부하기 싫다[남욱]가지마라 놀러가자";
+
+    let SeopE = null;
+
+    //출력하는 부분이 [섭이] 부터 [남욱] 문자 직전 까지
+    let startIndex = conversation.indexOf('[섭이]') //indexOf 메소드를 사용하여 
+    let endIndex = conversation.indexOf('[남욱]')   //해당 문자열이 시작되는 index를 리턴함
+                                                    //각 리턴되는 값들을 변수에 저장
+
+    SeopE = conversation.slice(startIndex,endIndex) //slice 메소드의 파라미터로 값을 전달
+    
+
+    console.log(SeopE);
+</script>
+</html>

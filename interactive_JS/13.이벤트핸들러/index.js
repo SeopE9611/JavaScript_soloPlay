@@ -11,6 +11,7 @@ btn.onclick = function () {
 };
 */
 
+/*
 function event1() {
   console.log("Hi");
 }
@@ -23,3 +24,16 @@ btn.onclick = function () {
   event1();
   event2();
 };
+*/
+
+function event1() {
+  console.log("Hi");
+}
+
+function event2() {
+  console.log("HiHi");
+}
+
+//elem.addEventListner[event, handler]
+btn.addEventListener("click", event1);
+btn.addEventListener("click", event2);
