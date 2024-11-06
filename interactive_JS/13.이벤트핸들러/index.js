@@ -37,3 +37,6 @@ function event2() {
 //elem.addEventListner[event, handler]
 btn.addEventListener("click", event1);
 btn.addEventListener("click", event2);
+
+//elem.removeEventListner[event, handler]
+btn.removeEventListener("click", event2);
