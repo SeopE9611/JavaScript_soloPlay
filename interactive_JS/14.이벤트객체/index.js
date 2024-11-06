@@ -13,6 +13,7 @@ myBtn.addEventListener("click", function () {
 //--------------------------------------------------
 function printEvent(e) {
   console.log(e);
+  e.target.style.color = "red"; //target - 글자 색상 red
 }
 
 myInput.addEventListener("keydown", printEvent);
