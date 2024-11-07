@@ -23,5 +23,6 @@ for (let item of items) {
   item.addEventListener("click", function (e) {
     console.log("item Event");
     console.log(e.currentTarget);
+    e.stopPropagation(); // 이벤트 버블링 해결
   });
 }
