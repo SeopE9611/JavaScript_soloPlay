@@ -6,22 +6,22 @@ const items = document.querySelectorAll(".item");
 
 content.addEventListener("click", function (e) {
   console.log("content Event");
-  console.log(e.target);
+  console.log(e.currentTarget);
 });
 
 title.addEventListener("click", function (e) {
   console.log("title Event");
-  console.log(e.target);
+  console.log(e.currentTarget);
 });
 
 list.addEventListener("click", function (e) {
   console.log("list Event");
-  console.log(e.target);
+  console.log(e.currentTarget);
 });
 
 for (let item of items) {
   item.addEventListener("click", function (e) {
     console.log("item Event");
-    console.log(e.target);
+    console.log(e.currentTarget);
   });
 }
