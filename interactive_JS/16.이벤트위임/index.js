@@ -6,3 +6,9 @@ for (let item of list.children) {
     e.target.classList.toggle("done");
   });
 }
+
+//새로운 아이템 추가
+const li = document.createElement("li");
+li.classList.add("item");
+li.textContent = "빨래하기";
+list.append(li);
