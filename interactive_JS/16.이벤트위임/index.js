@@ -7,8 +7,15 @@ const list = document.querySelector("#list");
 //   });
 // }
 
+// list.addEventListener("click", function (e) {
+//   e.target.classList.toggle("done");
+// });
+
 list.addEventListener("click", function (e) {
-  e.target.classList.toggle("done");
+  //if (e.target.tagName === 'li')
+  if (e.target.classList.contains("item")) {
+    e.target.classList.toggle("done");
+  }
 });
 
 //새로운 아이템 추가
