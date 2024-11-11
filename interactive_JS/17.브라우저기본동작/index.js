@@ -9,3 +9,10 @@ link.addEventListener("click", function (e) {
   e.preventDefault();
   alert("이동 불가");
 });
+
+input.addEventListener("keydown", function (e) {
+  if (!checkbox.checked) {
+    e.preventDefault();
+    alert("체크박스를 먼저 클릭하세요.");
+  }
+});
