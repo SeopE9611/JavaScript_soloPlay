@@ -16,3 +16,8 @@ input.addEventListener("keydown", function (e) {
     alert("체크박스를 먼저 클릭하세요.");
   }
 });
+
+window.addEventListener("contextmenu", function (e) {
+  e.preventDefault();
+  alert("마우스 오른쪽 클릭 사용 불가");
+});
