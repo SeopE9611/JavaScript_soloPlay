@@ -15,3 +15,11 @@
  * > MouseEvent.offsetX, offsetY
  * : 이벤트가 발생한 요소 기준 마우스 포인터 위치
  */
+
+const box1 = document.querySelector("#box1");
+
+function onMouseMove() {
+  console.log("마우스에 움직임이 감지되었습니다.");
+}
+
+box1.addEventListener("mousemove", onMouseMove);
