@@ -18,8 +18,12 @@
 
 const box1 = document.querySelector("#box1");
 
-function onMouseMove() {
-  console.log("마우스에 움직임이 감지되었습니다.");
+function onMouseMove(e) {
+  // console.log("마우스에 움직임이 감지되었습니다.");
+  console.log(`client: (${e.clientX}, ${e.clientY})`);
+  console.log(`page: (${e.pageX}, ${e.pageY})`);
+  console.log(`offset: (${e.offsetX}, ${e.offsetY})`);
+  console.log("--------------------------------------");
 }
 
 box1.addEventListener("mousemove", onMouseMove);
