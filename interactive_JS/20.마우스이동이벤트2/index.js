@@ -12,12 +12,17 @@
  * > MouseEvent.relatedTarget
  * : 이벤트가 발생하기 직전(또는 직후)에 마우스가 위치해 있던 요소
  */
-
 const box2 = document.querySelector("#box2");
 
 function printEventData(e) {
-  console.log(e.type);
+  // if (e.target.classList.contains("cell")) {
+  //   e.target.classList.toggle("on");
+  // }
+  console.log("event:", e.type);
+  console.log("target:", e.target);
+  console.log("relatedTarget:", e.relatedTarget);
+  console.log("------------------------------------");
 }
 
-box2.addEventListener("mousemove", printEventData);
+box2.addEventListener("mouseover", printEventData);
 box2.addEventListener("mouseout", printEventData);
