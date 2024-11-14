@@ -12,7 +12,6 @@
  * > KeyboardEvent.code
  * : 이벤트가 발생한 버튼의 키보드에서 물리적인 위치
  */
-
 const myInput = document.querySelector("#my-input");
 const key = document.querySelector("#key");
 const code = document.querySelector("#code");
