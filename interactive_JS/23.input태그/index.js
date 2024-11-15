@@ -11,3 +11,13 @@
  * input: 사용자가 입력을 할 때
  * change: 요소의 값이 변했을 때
  */
+const el = document.querySelector("#form");
+
+function printEventType(e) {
+  console.log("type:", e.type);
+  console.log("target:", e.target);
+  console.log("---------");
+}
+
+el.addEventListener("focusin", printEventType);
+el.addEventListener("focusout", printEventType);
