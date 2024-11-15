@@ -21,3 +21,5 @@ function printEventType(e) {
 
 el.addEventListener("focusin", printEventType);
 el.addEventListener("focusout", printEventType);
+el.addEventListener("input", printEventType);
+el.addEventListener("change", printEventType);
