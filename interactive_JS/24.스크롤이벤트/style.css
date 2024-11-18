@@ -67,3 +67,9 @@ body {
   visibility: visible;
   opacity: 1;
 }
+
+.lift-up {
+  transition-property: transform;
+  transform: translateY(-70px);
+  transition-duration: 1.5s;
+}
