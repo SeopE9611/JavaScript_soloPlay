@@ -19,3 +19,13 @@ console.log(null && undefined);
 console.log(0 || true);
 console.log("0" && NaN);
 console.log({} || 123);
+
+console.log("------------------------------------");
+
+function print(value) {
+  const message = value || "Hello";
+  console.log(message);
+}
+
+print();
+print("JavaScript");
