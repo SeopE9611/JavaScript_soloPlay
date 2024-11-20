@@ -1,0 +1,4 @@
+// 변수와 스코프
+
+console.log(title);
+var title;
