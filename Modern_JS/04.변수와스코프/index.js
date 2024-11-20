@@ -46,15 +46,22 @@ console.log("----------------------------------------------");
 
 console.log("----------------------------------------------");
 
-let x = 3;
-if (x < 4) {
-  let y = 3;
-}
+// let x = 3;
+// if (x < 4) {
+//   let y = 3;
+// }
 
-for (let i = 0; i < 5; i++) {
-  console.log(i);
-}
+// for (let i = 0; i < 5; i++) {
+//   console.log(i);
+// }
 
-console.log("x:", x);
-console.log("y:", y);
-console.log("i:", i);
+// console.log("x:", x);
+// console.log("y:", y);
+// console.log("i:", i);
+
+console.log("----------------------------------------------");
+
+{
+  let title = "JavaScript";
+}
+console.log(title);
