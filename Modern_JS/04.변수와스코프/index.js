@@ -61,7 +61,13 @@ console.log("----------------------------------------------");
 
 console.log("----------------------------------------------");
 
-{
-  let title = "JavaScript";
-}
-console.log(title);
+// {
+//   let title = "JavaScript";
+// }
+// console.log(title);
+
+console.log("----------------------------------------------");
+
+var x;  // 함수 스코프 (function scope)
+var y;  // 블록 스코프 (block scope)
+const z;  // 블록 스코프 (block scope)
