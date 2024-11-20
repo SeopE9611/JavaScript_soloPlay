@@ -14,10 +14,10 @@ const Name2 = null ?? "SeopE";
 console.log(Name1);
 console.log(Name2);
 
-console.log(`------------------------------------`);
+console.log(`---------------------------------`);
 
-const title1 = false || "codeit";
-const title2 = false ?? "codeit";
+const title1 = false || "SeopE";
+const title2 = false ?? "SeopE";
 
 console.log(title1);
 console.log(title2);
