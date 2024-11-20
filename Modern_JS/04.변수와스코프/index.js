@@ -7,7 +7,12 @@
 // console.log(title);
 // let title;
 
-var title = "SeopE";
+// var title = "SeopE";
+// console.log(title);
+// var title = "JavaScript";
+// console.log(title);
+
+let title = "SeopE";
 console.log(title);
-var title = "JavaScript";
+let title = "JavaScript";
 console.log(title);
