@@ -4,5 +4,10 @@
 // var title = "SeopE";
 // console.log(title);
 
+// console.log(title);
+// let title;
+
+var title = "SeopE";
 console.log(title);
-let title;
+var title = "JavaScript";
+console.log(title);
