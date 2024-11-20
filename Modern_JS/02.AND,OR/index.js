@@ -29,3 +29,11 @@ function print(value) {
 
 print();
 print("JavaScript");
+
+console.log("------------------------------------");
+
+console.log(true || (false && false)); // true
+console.log((true || false) && false); // false
+
+console.log("SeopE" || (NaN && false)); // SeopE
+console.log(("SeopE" || NaN) && false); // false
