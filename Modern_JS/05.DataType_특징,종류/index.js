@@ -54,6 +54,7 @@ printStudy();
 PrintJS();
 */
 
+/*
 const x = 4;
 if (x < 5) {
   function PrintJS() {
@@ -69,3 +70,17 @@ if (x < 5) {
 
 printStudy();
 PrintJS();
+*/
+
+// 함수 표현식 - 할당된 변수에 따라 스코프 결정
+var PrintJS = function () {
+  console.log("JavaScript");
+};
+
+let printHi = function () {
+  console.log("Hi");
+};
+
+const printStudy = function () {
+  console.log("Modern JS");
+};
