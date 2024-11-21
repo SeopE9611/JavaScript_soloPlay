@@ -15,8 +15,16 @@ printStudy();
 */
 
 // 이벤트 만들 때의 함수 표현식 활용
-const myBtn = document.querySelector("#myBtn");
+/*const myBtn = document.querySelector("#myBtn");
 
 myBtn.addEventListener("click", function () {
   console.log("button clicked");
 });
+*/
+
+// 함수 선언 - 선언하기 전 호출 가능 (호이스팅)
+printStudy();
+
+function printStudy() {
+  console.log("Modern JS");
+}
