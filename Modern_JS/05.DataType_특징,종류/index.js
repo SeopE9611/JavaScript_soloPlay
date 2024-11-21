@@ -32,7 +32,40 @@ function printStudy() {
 */
 
 //함수 표현식 - 선언하기 전 호출 불가능
+/*
 printStudy();
 const printStudy = function () {
   console.log("Modern JS");
 };
+*/
+
+//스코프의 차이
+/*
+function printStudy() {
+  function PrintJS() {
+    console.log("Modern JS");
+  }
+
+  console.log("JavaScript");
+  PrintJS();
+}
+
+printStudy();
+PrintJS();
+*/
+
+const x = 4;
+if (x < 5) {
+  function PrintJS() {
+    console.log("JavaScript");
+  }
+}
+
+{
+  function printStudy() {
+    console.log("Modern JS");
+  }
+}
+
+printStudy();
+PrintJS();
