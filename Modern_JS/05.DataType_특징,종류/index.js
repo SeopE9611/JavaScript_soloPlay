@@ -7,8 +7,16 @@
 */
 
 // 함수 표현식(Function Expression)
-const printStudy = function () {
+/*const printStudy = function () {
   console.log("Modern JS");
 };
 
 printStudy();
+*/
+
+// 이벤트 만들 때의 함수 표현식 활용
+const myBtn = document.querySelector("#myBtn");
+
+myBtn.addEventListener("click", function () {
+  console.log("button clicked");
+});
