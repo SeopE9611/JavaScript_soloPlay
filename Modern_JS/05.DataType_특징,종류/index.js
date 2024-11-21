@@ -23,8 +23,16 @@ myBtn.addEventListener("click", function () {
 */
 
 // 함수 선언 - 선언하기 전 호출 가능 (호이스팅)
+/*
 printStudy();
 
 function printStudy() {
   console.log("Modern JS");
 }
+*/
+
+//함수 표현식 - 선언하기 전 호출 불가능
+printStudy();
+const printStudy = function () {
+  console.log("Modern JS");
+};
