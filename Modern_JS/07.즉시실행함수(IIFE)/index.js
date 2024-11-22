@@ -18,7 +18,7 @@
 
 sayHi(); // ReferenceError
 */
-
+/*
 (function countdown(n) {
   console.log(n);
   if (n === 0) {
@@ -27,3 +27,8 @@ sayHi(); // ReferenceError
     countdown(n - 1);
   }
 })(5);
+*/
+
+(function init() {
+  // 프로그램이 실행 될 때 기본적으로 동작할 코드들..
+})();
