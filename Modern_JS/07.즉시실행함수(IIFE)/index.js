@@ -11,8 +11,19 @@
 })(3, 5);
 */
 
+/*
 (function sayHi() {
   console.log("Hi!");
 })();
 
 sayHi(); // ReferenceError
+*/
+
+(function countdown(n) {
+  console.log(n);
+  if (n === 0) {
+    console.log("End!");
+  } else {
+    countdown(n - 1);
+  }
+})(5);
