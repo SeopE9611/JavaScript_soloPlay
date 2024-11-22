@@ -28,7 +28,19 @@ sayHi(); // ReferenceError
   }
 })(5);
 */
-
+/*
 (function init() {
   // 프로그램이 실행 될 때 기본적으로 동작할 코드들..
 })();
+*/
+
+const firstName = "Seop";
+const lastName = "E";
+
+const greetingMessage = (function () {
+  const fullName = `${firstName} ${lastName} `;
+
+  return `Hi! My name is ${fullName}`;
+})();
+
+console.log(greetingMessage);
