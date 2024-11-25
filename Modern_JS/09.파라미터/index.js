@@ -1,5 +1,5 @@
 // Parameter
-function greeting(name) {
+function greeting(name = "SeopE") {
   console.log(`my name is ${name}...`);
 }
 
