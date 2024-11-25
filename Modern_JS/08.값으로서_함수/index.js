@@ -38,7 +38,7 @@ const myArrey = [
 
 myArrey[2]("JavaScript");
 */
-
+/*
 function makeQuiz(quiz, answer, success, fail) {
   if (prompt(quiz) === answer) {
     console.log(success());
@@ -57,3 +57,15 @@ function getFail(params) {
 
 const question = "5+3=?";
 makeQuiz(question, "8", getSuccess, getFail);
+*/
+
+function getPrintHi() {
+  return function () {
+    console.log("Hi");
+  };
+}
+
+// const sayHi = getPrintHi();
+// sayHi();
+
+getPrintHi()();
