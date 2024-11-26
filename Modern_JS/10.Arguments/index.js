@@ -9,3 +9,6 @@ function printArguments(a, b, c) {
 printArguments("Jung", "Sang", "hwa");
 printArguments("Shin");
 printArguments("Chang", "Seop");
+
+printArguments("Ronaldo", "Messi");
+printArguments("Doran", "Oner", "Deft", "Keria");
