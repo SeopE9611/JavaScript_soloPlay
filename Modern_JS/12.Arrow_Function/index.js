@@ -73,3 +73,14 @@ const sum1 = (a, b) => {
   return result;
 };
 console.log(sum1(1, 5));
+
+// 화살표 함수는 argumnets 객체 X
+function normalFunc() {
+  console.log(arguments);
+}
+
+const arrowFunc = () => {
+  console.log(arguments);
+};
+normalFunc(1, 2, 3);
+arrowFunc(1, 2, 3);
