@@ -15,11 +15,15 @@ myBtn.addEventListener("click", function () {
 */
 
 // 화살표 함수 적용 후
+/*
 const getTwice = (number) => {
   return number * 2;
 };
-
 console.log(getTwice(5));
+*/
+
+const getTwice = (number) => number * 2;
+console.log(getTwice(10));
 
 const myBtn = document.querySelector("#myBtn");
 myBtn.addEventListener("click", () => {
