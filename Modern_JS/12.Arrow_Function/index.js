@@ -50,3 +50,26 @@ const getTwice = (number) => {
   return number * 2;
 };
 console.log(getTwice(5));
+
+// 파라미터가 두 개 이상 일 때
+const sum = (a, b) => {
+  return a + b;
+};
+console.log(sum(1, 5));
+
+const getTest = () => {
+  return { name: "Test" };
+};
+
+console.log(getTest());
+
+// return 키워드 생략가능
+const getTwice2 = (number) => number * 2;
+console.log(getTwice2(10));
+
+// 리턴문 외에 다른 표현들이 필요한 상황에선 생략 불가능
+const sum1 = (a, b) => {
+  const result = a + b;
+  return result;
+};
+console.log(sum1(1, 5));
