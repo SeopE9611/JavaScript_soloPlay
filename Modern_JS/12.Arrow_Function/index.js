@@ -21,7 +21,7 @@ const getTwice = (number) => {
 };
 console.log(getTwice(5));
 */
-
+/*
 const getTwice = (number) => number * 2;
 console.log(getTwice(10));
 
@@ -29,3 +29,16 @@ const myBtn = document.querySelector("#myBtn");
 myBtn.addEventListener("click", () => {
   console.log("button click");
 });
+*/
+
+//함수 표현식, 함수 선언, 화살표 함수의 차이
+const getTwice = function (number) {
+  return number * 2;
+};
+
+function getTwice(number) {
+  return number * 2;
+}
+
+const getTwice = (number) => number * 2;
+console.log(getTwice(10));
