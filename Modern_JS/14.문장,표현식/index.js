@@ -33,3 +33,13 @@ typeof myName; // object
 title; // JavaScript
 myName.name; // SeopE
 numbers[3]; // undefined
+
+// 표현식이면서 문장, 문장이면서 표현식
+// 할당 연산자는 값을 할당하는 동작도 하지만, 할당한 값을 그대로 가지는 표현식이다.
+title = "JavaScript"; // JavaScript
+
+// 함수 호출은 함수를 실행하는 동작도 하지만, 실행한 함수의 리턴 값을 가지는 표현식이다.
+sayHi(); // sayHi 함수의 리턴 값
+
+// console.log 메소드는 콘솔에 아규먼트를 출력하는 동작도 하지만, undefined 값을 가지는 표현식이다.
+console.log("hi"); // undefined
