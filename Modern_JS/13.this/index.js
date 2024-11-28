@@ -1,6 +1,7 @@
 //this
 // console.log(this);
 
+/*
 function getFullName() {
   return `${this.firstName} ${this.lastName}`;
 }
@@ -19,3 +20,11 @@ const GameId = {
 
 console.log(user.getFullName());
 console.log(GameId.getFullName());
+*/
+/*
+console.log(this);
+function printThis() {
+  console.log(this);
+}
+printThis();
+*/
