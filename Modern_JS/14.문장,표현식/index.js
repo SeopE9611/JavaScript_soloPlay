@@ -47,13 +47,23 @@ console.log("hi"); // undefined
 // 표현식인 문장 vs 표현식이 아닌 문장
 let y;
 y = 3;
-
+/*
 console.log(if (y < 5){ //Error
   console.log('y는 5보다 작다');
 }else{
   console.log('y는 5보다 크다');
 });
-
+*/
+/*
 const someloop = for (let i = 0; i<5 i++) { //Error
   console.log(i);
 } 
+*/
+
+// 일반적인 표현식인 문장과 표현식이 아닌 문장의 범위 구분
+(3 + 4) * 2;
+console.log("hi");
+
+while (ture) {
+  x++;
+}
