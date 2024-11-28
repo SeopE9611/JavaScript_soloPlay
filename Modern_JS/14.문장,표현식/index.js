@@ -43,3 +43,17 @@ sayHi(); // sayHi 함수의 리턴 값
 
 // console.log 메소드는 콘솔에 아규먼트를 출력하는 동작도 하지만, undefined 값을 가지는 표현식이다.
 console.log("hi"); // undefined
+
+// 표현식인 문장 vs 표현식이 아닌 문장
+let y;
+y = 3;
+
+console.log(if (y < 5){ //Error
+  console.log('y는 5보다 작다');
+}else{
+  console.log('y는 5보다 크다');
+});
+
+const someloop = for (let i = 0; i<5 i++) { //Error
+  console.log(i);
+} 
