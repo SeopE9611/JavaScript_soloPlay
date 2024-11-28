@@ -2,7 +2,7 @@
 // console.log(this);
 
 function getFullName() {
-  return `${user.firstName} ${user.lastName}`;
+  return `${this.firstName} ${this.lastName}`;
 }
 
 const user = {
