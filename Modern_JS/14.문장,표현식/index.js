@@ -11,3 +11,25 @@ if (x < 5) {
 for (let i = 0; i < 5; i++) {
   console.log(i);
 }
+
+// 표현식 (expressions)
+5;
+("string");
+
+console.log(`---------------------------------------`);
+
+5 + 7; // 12
+"Seop" + "E";
+true && null; // null
+
+console.log(`---------------------------------------`);
+
+const title = "JavaScript";
+const myName = {
+  name: "SeopE",
+};
+const numbers = [1, 2, 3];
+typeof myName; // object
+title; // JavaScript
+myName.name; // SeopE
+numbers[3]; // undefined
