@@ -22,12 +22,32 @@ console.log(user.getFullName());
 console.log(GameId.getFullName());
 */
 
+/*
 console.log(this);
 
 function printThis() {
   console.log(this);
 }
 printThis();
+
+const myObj = {
+  content: "myObj",
+  printThis: printThis,
+};
+
+const otherObj = {
+  content: "otherObj",
+  printThis: printThis,
+};
+
+myObj.printThis();
+otherObj.printThis();
+*/
+
+const printThis = () => {
+  //화살표 함수
+  console.log(this);
+};
 
 const myObj = {
   content: "myObj",
