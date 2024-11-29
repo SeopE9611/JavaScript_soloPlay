@@ -5,7 +5,7 @@ console.log(...number);
 */
 
 const webPublishing = ["HTML", "CSS"];
-const interactiveweb = webPublishing;
+const interactiveweb = webPublishing.slice();
 
 interactiveweb.push("JavaScript");
 
