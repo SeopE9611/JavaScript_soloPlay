@@ -13,10 +13,20 @@ console.log(webPublishing);
 console.log(interactiveweb);
 */
 
+/*
 const webPublishing = ["HTML", "CSS"];
 const interactiveweb = [...webPublishing]; // Spread
 
 interactiveweb.push("JavaScript");
+
+console.log(webPublishing);
+console.log(interactiveweb);
+*/
+
+const webPublishing = ["HTML", "CSS"];
+const interactiveweb = [...webPublishing, "JavaScript"]; // Spread
+
+// interactiveweb.push("JavaScript");
 
 console.log(webPublishing);
 console.log(interactiveweb);
