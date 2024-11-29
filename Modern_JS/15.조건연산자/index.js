@@ -19,6 +19,11 @@ switch (값) {
 // 조건 연산자 = 삼항 연산자(Ternary operator)
 const CUT_OFF = 80;
 function passChecker(score) {
-  return score > CUT_OFF ? "합격" : "불합격";
+  // return score > CUT_OFF ? "합격" : "불합격";
+  if (score > CUT_OFF) {
+    return "합격";
+  } else {
+    return "불합격";
+  }
 }
 console.log(passChecker(70));
