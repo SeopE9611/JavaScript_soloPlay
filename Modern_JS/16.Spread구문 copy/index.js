@@ -63,3 +63,16 @@ const tester = {
   ["Seop" + "E"]: "value",
 };
 console.log(tester);
+
+console.log(`--------------------------------------`);
+
+const propertyName = "birth";
+const getJob = () => "job";
+
+const x = {
+  ["your" + "name"]: "SeopE",
+  [propertyName]: 2024,
+  [getJob()]: "백수",
+};
+
+console.log(x);
