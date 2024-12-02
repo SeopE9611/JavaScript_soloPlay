@@ -14,7 +14,7 @@ const user = {
 console.log(user);
 
 console.log(`------------------------------------`);
-
+/*
 function getFullName() {
   return `${this.firstName} ${this.lastName}`;
 }
@@ -33,5 +33,19 @@ const GameId = {
   getFullName,
 };
 
-console.log(user.getFullName());
+console.log(user1.getFullName());
 console.log(GameId.getFullName());
+*/
+console.log(`--------------------------------------`);
+
+const user1 = {
+  firstName: "Seop",
+  lastName: "Yee",
+  // getFullName: function () { // 콜론과 function 생략가능
+  getFullName() {
+    return `${this.firstName} ${this.lastName}`;
+  },
+};
+console.log(user1.getFullName());
+
+console.log(`--------------------------------------`);
