@@ -41,7 +41,7 @@ console.log(arr3);
 const arr4 = arr1.concat(arr2);
 console.log(arr4);
 */
-
+/*
 const introduce = (myName, birth, job) => {
   console.log("안녕하세요");
   console.log(`제 이름은 ${myName} 입니다.`);
@@ -50,3 +50,8 @@ const introduce = (myName, birth, job) => {
 };
 const myArr = ["섭이", "0101", "백수"];
 introduce(...myArr);
+*/
+
+const member = ["섭이", "쑹이", "섭섭"];
+const newObj = { ...member };
+console.log(newObj);
