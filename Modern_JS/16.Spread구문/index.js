@@ -51,7 +51,19 @@ const introduce = (myName, birth, job) => {
 const myArr = ["섭이", "0101", "백수"];
 introduce(...myArr);
 */
-
+/*
 const member = ["섭이", "쑹이", "섭섭"];
 const newObj = { ...member };
 console.log(newObj);
+*/
+
+const myName = {
+  name: "SeopE",
+};
+
+const mymyName = {
+  ...myName,
+};
+
+console.log(myName);
+console.log(mymyName);
