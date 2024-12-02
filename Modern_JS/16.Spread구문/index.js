@@ -68,7 +68,7 @@ const mymyName = {
 console.log(myName);
 console.log(mymyName);
 */
-
+/*
 const latte = {
   esspresso: "30ml",
   milk: "150ml",
@@ -81,3 +81,22 @@ const cafeMocha = {
 
 console.log(latte);
 console.log(cafeMocha);
+*/
+
+const latte = {
+  esspresso: "30ml",
+  milk: "150ml",
+};
+
+const cafeMocha = {
+  ...latte,
+  chocolate: "20ml",
+};
+
+[...latte]; // iterable Error
+
+(function (...args) {
+  for (const arg of args) {
+    console.log(arg);
+  }
+});(...cafeMocha) //SyntaxError Error
