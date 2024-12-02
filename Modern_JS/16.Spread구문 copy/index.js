@@ -49,3 +49,17 @@ const user1 = {
 console.log(user1.getFullName());
 
 console.log(`--------------------------------------`);
+
+//계산된 속성명 (Computed property name)
+// 프로퍼티 네임을 표현식으로 나타냄
+/*
+const test = {
+  [표현식]: 값,
+};
+*/
+console.log(`--------------------------------------`);
+
+const tester = {
+  ["Seop" + "E"]: "value",
+};
+console.log(tester);
