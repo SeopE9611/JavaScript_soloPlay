@@ -56,7 +56,7 @@ const member = ["섭이", "쑹이", "섭섭"];
 const newObj = { ...member };
 console.log(newObj);
 */
-
+/*
 const myName = {
   name: "SeopE",
 };
@@ -67,3 +67,17 @@ const mymyName = {
 
 console.log(myName);
 console.log(mymyName);
+*/
+
+const latte = {
+  esspresso: "30ml",
+  milk: "150ml",
+};
+
+const cafeMocha = {
+  ...latte,
+  chocolate: "20ml",
+};
+
+console.log(latte);
+console.log(cafeMocha);
