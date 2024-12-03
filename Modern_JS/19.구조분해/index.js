@@ -1,5 +1,5 @@
 // 구조 분해 (Destructuring)
-const rank = ["행섭", "죡팡", "힝카인", "찌듕"];
+const rank = ["행섭", "죡팡", "힝카인", "찌듕", "스기따라"];
 
 // const macbook = rank[0];
 // const ipad = rank[1];
