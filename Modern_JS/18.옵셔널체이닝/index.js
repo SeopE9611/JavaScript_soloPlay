@@ -1,5 +1,6 @@
 function printPatName(pat) {
-  console.log(pat.dog.name);
+  // console.log(pat.dog.name);
+  console.log(pat.dog && pat.dog.name);
 }
 
 const pat = {
@@ -14,5 +15,4 @@ const pat2 = {
   name: "Cloud",
 };
 
-console.log(pat2.dog); // undefined
-printPatName(pat2); // 타입에러
+printPatName(pat);
