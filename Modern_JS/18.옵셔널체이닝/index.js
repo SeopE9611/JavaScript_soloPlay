@@ -1,7 +1,10 @@
 function printPatName(pat) {
   // console.log(pat.dog.name);
   // console.log(pat.dog && pat.dog.name);
-  console.log(pat.dog?.name);
+  // console.log(pat.dog?.name);
+  console.log(
+    pat.dog === null || pat.dog === undefined ? undefined : pat.dog.name
+  );
 }
 
 const pat = {
