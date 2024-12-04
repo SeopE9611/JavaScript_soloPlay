@@ -21,8 +21,15 @@ let ipad = "죡팡";
 console.log("맥북:", macbook);
 console.log("아이패드:", ipad);
 
+// 구조 분해 문법 사용 전
+/*
 let temp = macbook;
 macbook = ipad;
 ipad = temp;
+*/
+
+// 구조 분해 문법 사용 후
+[macbook, ipad] = [ipad, macbook];
+
 console.log("맥북:", macbook);
 console.log("아이패드:", ipad);
