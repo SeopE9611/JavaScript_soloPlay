@@ -12,6 +12,7 @@ const macbook = {
 // const { title, price } = macbook; // 구조 분해
 // const { title, color } = macbook; // // 존재하지 않는 프로퍼티
 // const { title, color = "실버 색상" } = macbook; // 기본값 지정
-const { title, ...rest } = macbook;
-console.log(title);
+const { title: product, ...rest } = macbook; // // product 새로운 변수명 선언
+
+console.log(product);
 console.log(rest);
