@@ -14,7 +14,11 @@ const macbook = {
 // const { title, color } = macbook; // // 존재하지 않는 프로퍼티
 // const { title, color = "실버 색상" } = macbook; // 기본값 지정
 // const { title: product, ...rest } = macbook; // // product 새로운 변수명 선언
-const { title: product, "serial-num": serialNumber } = macbook;
+// const { title: product, "serial-num": serialNumber } = macbook;
 
+// console.log(product);
+// console.log(serialNumber);
+
+const propertyName = "title";
+const { [propertyName]: product } = macbook;
 console.log(product);
-console.log(serialNumber);
