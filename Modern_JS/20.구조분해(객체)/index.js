@@ -9,7 +9,8 @@ const macbook = {
 // const title = macbook.title;
 // const price = macbook.price;
 
-const { title, price } = macbook; // 구조 분해
+// const { title, price } = macbook; // 구조 분해
+const { title, color } = macbook; // // 존재하지 않는 프로퍼티
 
 console.log(title);
-console.log(price);
+console.log(color); // // 존재하지 않는 프로퍼티
