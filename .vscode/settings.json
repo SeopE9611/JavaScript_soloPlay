@@ -1,0 +1,104 @@
+{
+  "files.readonlyInclude": {
+    "sample/**": true,
+    "workspace-ins/** ": true
+  },
+  "liveServer.settings.port": 5501,
+ "gitmoji.addCustomEmoji": [
+ 
+
+      {
+      "emoji": "🎨 ",
+      "code": ":art:",
+      "description": "[코드의 구조 / 형태 개선]"
+    },
+    {
+      "emoji": "💡",
+      "code": ":bulb:",
+      "description": "[주석 추가 / 수정]"
+    },
+
+    {
+      "emoji": "⚡️",
+      "code": ":zap:",
+      "description": "[성능 개선]"
+    },
+
+    {
+      "emoji": "✨",
+      "code": ":sparkles:",
+      "description": "[새 기능 및 코드 추가]"
+    },
+    {
+      "emoji": "🔥",
+      "code": ":fire:",
+      "description": "[코드 / 파일 삭제]"
+    },
+    {
+      "emoji": "➕ ",
+      "code": ":heavy_plus_sign:",
+      "description": "[파일 추가]"
+    },
+    {
+      "emoji": "➖ ",
+      "code": ":heavy_minus_sign:",
+      "description": "[파일 제거]"
+    },
+    {
+      "emoji": "🏗️",
+      "code": ":card_file_box:",
+      "description": "[프로젝트 구조 변경]"
+    },
+    {
+      "emoji": "🐛",
+      "code": ":bug:",
+      "description": "[버그 수정]"
+    },
+    {
+      "emoji": "🚑",
+      "code": ":ambulance:",
+      "description": "[치명적인 버그 수정]"
+    },
+    {
+      "emoji": "♻️",
+      "code": ":recycle:",
+      "description": "[코드 리팩토링]"
+    },
+    {
+      "emoji": "📝",
+      "code": ":memo:",
+      "description": "[문서작성 및 편집]"
+    },
+    {
+      "emoji": "🎉",
+      "code": ":tada:",
+      "description": "[프로젝트 개시]"
+    },
+    {
+      "emoji": "🚀",
+      "code": ":rocket:",
+      "description": "[프로젝트 배포]"
+    },
+    {
+      "emoji": "📄",
+      "code": ":page_facing_up:",
+      "description": "[라이센스 추가 / 수정]"
+    },
+    {
+      "emoji": "💄",
+      "code": ":lipstick:",
+      "description": "[UI / 스타일 파일 추가 / 수정]"
+    },
+    {
+      "emoji": "💩",
+      "code": ":poop:",
+      "description": "[쓰레기(똥) 코드]"
+    },
+    {
+      "emoji": "🙈",
+      "code": ":see_no_evil:",
+      "description": "[.gitignore 추가 / 수정]"
+    },
+  ],
+  "gitmoji.onlyUseCustomEmoji": true
+}
