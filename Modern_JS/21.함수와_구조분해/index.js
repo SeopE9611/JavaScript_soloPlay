@@ -1,4 +1,4 @@
-// 구조 분해 (Destructuring)
+// 구조 분해 (Destructuring) - 배열
 /*
 function getArray() {
   return ["컴퓨터", "냉장고", "세탁기"];
@@ -10,6 +10,7 @@ console.log(el2);
 console.log(el3);
 */
 
+/*
 // function printWinners(...arg) {
 function printWinners([macbook, ipad, airpods, ...coupon]) {
   // const [macbook, ipad, airpods, ...coupon] = arg;
@@ -28,3 +29,4 @@ function printWinners([macbook, ipad, airpods, ...coupon]) {
 // printWinners("행섭", "양천", "힝카인", "스기따라", "찌듕", "넌적혈구");
 const rank = ["행섭", "양천", "힝카인", "스기따라", "찌듕", "넌적혈구"];
 printWinners(rank);
+*/
