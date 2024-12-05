@@ -32,6 +32,7 @@ printWinners(rank);
 */
 
 // 구조 분해 (Destructuring) - 객체
+/*
 function getObject() {
   return {
     name: "SeopE",
@@ -44,3 +45,23 @@ const { name: brand, birth, job } = getObject();
 console.log(brand);
 console.log(birth);
 console.log(job);
+*/
+
+const macbook = {
+  title: "맥북 프로",
+  price: 1000000,
+  memory: "16GB",
+  storage: "1TB",
+  "serial-num": "ABCDEFG123",
+};
+
+function printSummary(object) {
+  const { title, price, memory } = object;
+  // console.log(`상품명: ${object.title}`);
+  // console.log(`가격: ${object.price} 원`);
+  // console.log(`옹량: ${object.memory}`);
+  console.log(`상품명: ${title}`);
+  console.log(`가격: ${price} 원`);
+  console.log(`옹량: ${memory}`);
+}
+printSummary(macbook);
