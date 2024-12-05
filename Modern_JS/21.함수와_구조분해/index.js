@@ -30,3 +30,17 @@ function printWinners([macbook, ipad, airpods, ...coupon]) {
 const rank = ["행섭", "양천", "힝카인", "스기따라", "찌듕", "넌적혈구"];
 printWinners(rank);
 */
+
+// 구조 분해 (Destructuring) - 객체
+function getObject() {
+  return {
+    name: "SeopE",
+    birth: 2024,
+    job: "백수",
+  };
+}
+
+const { name: brand, birth, job } = getObject();
+console.log(brand);
+console.log(birth);
+console.log(job);
