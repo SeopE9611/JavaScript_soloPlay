@@ -55,8 +55,8 @@ const macbook = {
   "serial-num": "ABCDEFG123",
 };
 
-function printSummary(object) {
-  const { title, price, memory } = object;
+function printSummary({ title, price, memory }) {
+  // const { title, price, memory } = object;
   // console.log(`상품명: ${object.title}`);
   // console.log(`가격: ${object.price} 원`);
   // console.log(`옹량: ${object.memory}`);
