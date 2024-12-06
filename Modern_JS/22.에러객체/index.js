@@ -1,4 +1,5 @@
 // 에러 객체 (name, message)
+/*
 //1. ReferenceError
 console.log("Start");
 
@@ -27,5 +28,16 @@ console.log("Start");
 const ti-tle3 = "섭이";
 console.log(title);
 console.log(myName);
+
+console.log("End");
+*/
+
+// 에러 객체 만들기
+console.log("Start");
+
+const error = new TypeError("타입 에러 발생");
+
+console.log(error.name);
+console.log(error.message);
 
 console.log("End");
