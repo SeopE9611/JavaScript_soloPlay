@@ -37,6 +37,8 @@ console.log("Start");
 
 const error = new TypeError("타입 에러 발생");
 
+throw error;
+
 console.log(error.name);
 console.log(error.message);
 
