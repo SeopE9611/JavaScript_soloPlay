@@ -1,7 +1,16 @@
 // try catch문 활용
 function printMembers(members) {
-  for (const member of members) {
-    console.log(member);
+  // for (const member of members) {
+  //   console.log(member);
+  // }
+
+  try {
+    for (const member of members) {
+      console.log(member);
+    }
+  } catch (err) {
+    console.error(err);
+    alert(`${err.name}가 발생했습니다.`);
   }
 }
 
