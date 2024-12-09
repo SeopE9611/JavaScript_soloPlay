@@ -8,5 +8,11 @@ for (let member of members) {
 console.log(`-------------------------------------`);
 
 members.forEach(function (member) {
-  console.log(`$(member) 님이 접속하였습니다. `);
+  console.log(`${member}님이 접속하였습니다.`);
+});
+
+console.log(`-------------------------------------`);
+
+members.forEach((member) => {
+  console.log(`${member}님이 접속하였습니다.`);
 });
