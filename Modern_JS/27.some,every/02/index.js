@@ -13,3 +13,6 @@ const everyReturn = numbers.every((el, i) => {
 
 console.log('some:', someReturn);
 console.log('every:', everyReturn);
+
+
+// const numbers = [];
