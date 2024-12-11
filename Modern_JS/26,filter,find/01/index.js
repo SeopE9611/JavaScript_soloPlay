@@ -13,3 +13,6 @@ const BossGroup = [
 
 const types = BossGroup.filter((el) => el.type === "마법사");
 console.log(types);
+
+const jobs = BossGroup.filter((el) => el.job === "바이퍼")
+console.log(...jobs);
