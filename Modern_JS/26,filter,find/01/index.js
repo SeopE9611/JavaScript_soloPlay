@@ -17,5 +17,8 @@ console.log(types);
 // const jobs = BossGroup.filter((el) => el.job === "바이퍼")
 // console.log(...jobs);
 
-const jobs = BossGroup.find((el) => el.job === "바이퍼")
+// const jobs = BossGroup.find((el) => el.job === "바이퍼")
+// console.log(jobs);
+
+const jobs = BossGroup.find((el) => el.type === "해적")
 console.log(jobs);
