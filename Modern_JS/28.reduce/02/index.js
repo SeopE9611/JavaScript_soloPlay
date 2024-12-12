@@ -8,6 +8,6 @@ const sumAll = numbers.reduce((acc, el, i)=>{
   console.log('--------------');
 
   return acc + el;
-}, 0)
+}, ) // 두 번쨰 아규먼트 초기값을 생략가능
 
 console.log('sumAll:', sumAll);
