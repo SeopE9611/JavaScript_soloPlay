@@ -24,4 +24,10 @@ console.log(members.size); // 3
 members.clear();
 console.log(members.size); // 0
 
+console.log(`--------------------------------`);
+console.log(`반복문을 통한 개별 값 접근하기`);
+
+for(const memberList of members) {
+  console.log(memberList);
+}
 
