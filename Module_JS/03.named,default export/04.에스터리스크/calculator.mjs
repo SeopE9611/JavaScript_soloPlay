@@ -2,19 +2,19 @@
 
 const PI = 3.14;
 
-function add(a) { 
+function add(a,b) { 
   return a + b;
 }
 
-function subtract(a) { 
+function subtract(a,b) { 
   return a - b;
 }
 
-function multiply(a) { 
+function multiply(a,b) { 
   return a * b;
 }
 
-function divide(a) { 
+function divide(a,b) { 
   return a / b;
 }
 
