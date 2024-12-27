@@ -10,4 +10,7 @@ function printMessage(func) {
   console.log('Printing message...');
   func();
 }
-printMessage(sayHello);
+// printMessage(sayHello);
+printMessage(()=>{
+ console.log('Hello World!');  
+})
